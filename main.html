@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My VK Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+     
+      .header-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 70px;
+        background-color: #4a76a8;
+        color: #fff;
+        padding: 0 30px;
+      }
+
+      .logo img {
+        height: 40px;
+      }
+
+      .search input[type="text"] {
+        height: 35px;
+        width: 250px;
+        border-radius: 20px;
+        border: none;
+        padding: 0 10px;
+        font-size: 16px;
+        outline: none;
+      }
+
+      .menu ul {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      .menu li {
+        margin-left: 20px;
+      }
+
+      .menu li:first-child {
+        margin-left: 0;
+      }
+
+      .menu a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: bold;
+        transition: all 0.3s ease;
+      }
+
+      .menu a:hover {
+        color: #ffd700;
+      }
+
+      /* Стили для основного контента */
+      .content-wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding: 30px;
+      }
+
+      .left-sidebar ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      .left-sidebar li {
+        margin-bottom: 10px;
+      }
+
+      .left-sidebar a {
+        color: #333;
+        text-decoration: none;
+        font-size: 18px;
+        transition: all 0.3s ease;
+      }
+
+      .left-sidebar a:hover {
+        color: #4a76a8;
+      }
+
+      .main-content {
+        flex-grow: 1;
+        padding: 0 30px;
+      }
+
+      /* Стили для подвала */
+      .footer-wrapper {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px 0;
+      }
+
+      .footer-wrapper p {
+        margin: 0;
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <!-- Шапка страницы -->
+      <div class="header-wrapper">
+        <div class="logo">
+          <img src="https://www.tadviser.ru/images/d/dd/%D0%92%D0%9A%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D0%B5.png" alt="My VK Page">
+        </div>
+        <div class="search">
+          <input type="text" placeholder="Поиск...">
+        </div>
+        <div class="menu">
+          <ul>
+            <li><a href="#">Моя страница</a></li>
+            <li><a href="#">Друзья</a></li>
+            <li><a href="#">Сообщения</a></li>
+            <li><a href="#">Настройки</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- Основной контент страницы -->
+      <div class="content-wrapper">
+        <div class="left-sidebar">
+          <ul>
+            <li><a href="#">Новости</a></li>
+            <li><a href="#">Сообщества</a></li>
+            <li><a href="#">Музыка</a></li>
+            <li><a href="#">Видео</a></li>
+            <li><a href="#">Игры</a></li>
+            <li><a href="#">Приложения</a></li>
+          </ul>
+        </div>
+        <div class="main-content">
+          <h1>Добро пожаловать на мою страницу VK!</h1>
+          <p>Здесь вы можете найти информацию обо мне, мои интересы, друзей и многое другое. Не стесняйтесь написать мне сообщение или добавить в друзья!</p>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <!-- Подвал страницы -->
+      <div class="footer-wrapper">
+        <p>&copy; 2023 My VK Page. Все права защищены.</p>
+      </div>
+    </footer>
+  </body>
+</html>
